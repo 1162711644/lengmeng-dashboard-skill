@@ -55,7 +55,11 @@ git clone https://github.com/1162711644/lengmeng-dashboard-skill.git \
 python3 scripts/build_dashboard.py examples/demo-spec.json 我的看板.html
 ```
 
-跑完会生成 `examples/demo.html`，双击即可看到成片效果。
+想先看示例效果，把输出换成 `examples/demo.html` 即可：
+
+```bash
+python3 scripts/build_dashboard.py examples/demo-spec.json examples/demo.html
+```
 
 ### spec.json 长这样
 
